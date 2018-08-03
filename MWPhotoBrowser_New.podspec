@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name = 'MWPhotoBrowser_New'
-  s.version = '2.2.0'
+  s.version = '2.2.1'
   s.license = 'MIT'
   s.summary = 'update MWPhotoBrowser'
   s.description = <<-DESCRIPTION
@@ -19,9 +19,9 @@ Pod::Spec.new do |s|
     'https://raw.github.com/mwaterfall/MWPhotoBrowser/master/Screenshots/MWPhotoBrowser6.png'
   ]
 
-  s.homepage = 'https://github.com/mwaterfall/MWPhotoBrowser'
+  s.homepage = ''
   s.author           = { 'harddog' => '867129306@qq.com' }
-  s.social_media_url = 'https://twitter.com/mwaterfall'
+  s.social_media_url = 'https://github.com/harddog/MWPhotoBrowser_New'
 
   s.source           = { :git => 'https://github.com/harddog/MWPhotoBrowser_New.git', :tag => s.version.to_s }
 
