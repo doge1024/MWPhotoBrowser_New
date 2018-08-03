@@ -20,14 +20,12 @@ Pod::Spec.new do |s|
   ]
 
   s.homepage = 'https://github.com/mwaterfall/MWPhotoBrowser'
-  s.author = { 'Michael Waterfall' => 'michaelwaterfall@gmail.com' }
+  s.author           = { 'harddog' => '867129306@qq.com' }
   s.social_media_url = 'https://twitter.com/mwaterfall'
 
-  s.source = {
-    :git => 'https://github.com/harddog/MWPhotoBrowser_New.git',
-    :tag => '2.1.2'
-  }
-  s.platform = :ios, '8.0'
+  s.source           = { :git => 'https://github.com/harddog/MWPhotoBrowser_New.git', :tag => s.version.to_s }
+
+  s.ios.deployment_target = '8.0'
   s.source_files = 'Pod/Classes/*', 'Pod/Classes/**/*'
   s.public_header_files = 'Pod/Classes/*.h', 'Pod/Classes/**/*.h'
   s.resource_bundles = {
