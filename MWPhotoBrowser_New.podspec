@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name = 'MWPhotoBrowser_New'
-  s.version = '2.2.2'
+  s.version = '2.2.3'
   s.license = 'MIT'
   s.summary = 'update MWPhotoBrowser'
   s.description = <<-DESCRIPTION
@@ -32,7 +32,7 @@ Pod::Spec.new do |s|
     'MWPhotoBrowser_New' => ['Pod/Assets/*.png']
   }
   s.requires_arc = true
-  s.static_framework = true
+  #s.static_framework = true
   s.xcconfig  = { "OTHER_LDFLAGS" => "$(inherited) -ObjC"}
 
   s.frameworks = 'ImageIO', 'QuartzCore', 'AssetsLibrary', 'MediaPlayer'
