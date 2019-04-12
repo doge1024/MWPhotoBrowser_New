@@ -1,6 +1,6 @@
 {
   "name": "MWPhotoBrowser_New",
-  "version": "2.1.2",
+  "version": "2.2.4",
   "license": "MIT",
   "summary": "update MWPhotoBrowser",
   "description": "MWPhotoBrowser can display one or more images or videos by providing either UIImage\nobjects, PHAsset objects, or URLs to library assets, web images/videos or local files.\nThe photo browser handles the downloading and caching of photos from the web seamlessly.\nPhotos can be zoomed and panned, and optional (customisable) captions can be displayed.",
@@ -12,14 +12,14 @@
     "https://raw.github.com/mwaterfall/MWPhotoBrowser/master/Screenshots/MWPhotoBrowser5.png",
     "https://raw.github.com/mwaterfall/MWPhotoBrowser/master/Screenshots/MWPhotoBrowser6.png"
   ],
-  "homepage": "https://github.com/mwaterfall/MWPhotoBrowser",
+  "homepage": "https://github.com/harddog/MWPhotoBrowser_New",
   "authors": {
     "harddog": "867129306@qq.com"
   },
-  "social_media_url": "https://twitter.com/mwaterfall",
+  "social_media_url": "https://github.com/harddog/MWPhotoBrowser_New",
   "source": {
     "git": "https://github.com/harddog/MWPhotoBrowser_New.git",
-    "tag": "2.1.2"
+    "tag": "2.2.4"
   },
   "platforms": {
     "ios": "8.0"
@@ -38,7 +38,6 @@
     ]
   },
   "requires_arc": true,
-  "static_framework": true,
   "xcconfig": {
     "OTHER_LDFLAGS": "$(inherited) -ObjC"
   },
@@ -57,7 +56,7 @@
       "~> 2.3"
     ],
     "SDWebImage": [
-      ">4.0.0"
+      ">5.0.0"
     ]
   }
 }

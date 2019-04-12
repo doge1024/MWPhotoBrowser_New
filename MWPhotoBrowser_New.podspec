@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name = 'MWPhotoBrowser_New'
-  s.version = '2.2.3'
+  s.version = '2.2.4'
   s.license = 'MIT'
   s.summary = 'update MWPhotoBrowser'
   s.description = <<-DESCRIPTION
@@ -42,6 +42,6 @@ Pod::Spec.new do |s|
   s.dependency 'DACircularProgress', '~> 2.3'
 
   # SDWebImage
-  s.dependency 'SDWebImage', '>4.0.0'
+  s.dependency 'SDWebImage', '>5.0.0'
 
 end
